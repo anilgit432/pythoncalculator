@@ -4,10 +4,7 @@ pipeline{
         stage('checkout'){
             steps{
                 git branch: 'main'
-               steps{
-
-                  url: 'https://github.com/anilgit432/pythoncalculator.git'
-               }
+                    url: 'https://github.com/anilgit432/pythoncalculator.git'
             }
         }
         stage ('build'){
