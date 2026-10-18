@@ -20,11 +20,10 @@ pipeline{
                 sh 'python3 -m unittest discover -v'
             }
         }
-        stage('run calculator'){
-            steps{
-                sh 'python3 app.py'
-            }
-        }
+        
+            
+            
+        
     }
 }
 
